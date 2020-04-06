@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import "leaflet/dist/leaflet.css"
+import "leaflet/dist/leaflet.js"
 import {Map, TileLayer, Popup, GeoJSON} from 'react-leaflet'
 import {centerOfMass} from '@turf/turf';
 
